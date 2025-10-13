@@ -42,7 +42,7 @@ public class LoginTests {
         WebElement dashboard = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[8]/a/span")));
         Assert.assertTrue(dashboard.isDisplayed(), "Login failed or dashboard not displayed.");
         Thread.sleep(3000);
-        System.out.println("Login successfulllyyyyyyyyy.");
+        System.out.println("Login Done.");
 
     }
 
